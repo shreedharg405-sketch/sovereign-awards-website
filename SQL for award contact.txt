@@ -1,0 +1,13 @@
+CREATE DATABASE sovergin_awards;
+
+USE sovergin_awards;
+
+CREATE TABLE nominations (
+  whatsapp VARCHAR(20) PRIMARY KEY,
+  company_name VARCHAR(100),
+  your_name VARCHAR(100),
+  email VARCHAR(100),
+  category VARCHAR(100),
+  agree TINYINT(1),
+  submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

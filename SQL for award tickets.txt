@@ -1,0 +1,14 @@
+CREATE DATABASE ticket_booking;
+
+USE ticket_booking;
+
+CREATE TABLE bookings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    company_name VARCHAR(150),
+    email VARCHAR(150),
+    whatsapp VARCHAR(20),
+    designation VARCHAR(100),
+    country VARCHAR(100)
+);
